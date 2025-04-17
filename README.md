@@ -7,7 +7,7 @@ Designed for the [BigTreeTech SKR MINI E3 V2.0](//https://github.com/bigtreetech
 The config is modified from the example from the [Marlin LTS 2.1.2 Repo](//https://github.com/MarlinFirmware/Marlin/tree/lts-2.1.2)
 
 The BL Touch should be plugged directly into the `z_probe` port.
-Configued to use an optional filimant runout sensor. 
+Configured to use an optional filament runout sensor. 
 
 The Mini E3 V2.0 uses a [STM32F103RCT6](//https://www.digikey.com/en/products/detail/stmicroelectronics/STM32F103RCT6/2035353), this is a 256KB flash chip. Use the `STM32F103RC_btt (256K)`
 
@@ -21,7 +21,7 @@ The Mini E3 V2.0 uses a [STM32F103RCT6](//https://www.digikey.com/en/products/de
 
 - Build using `STM32F103RC_btt (256K)` or `STM32F103RC_btt_USB (256K)` for USB Media Share Support. 
 
-The Mini E3 V2.0 uses a [STM32F103RCT6](//https://www.digikey.com/en/products/detail/stmicroelectronics/STM32F103RCT6/2035353), this is a 256KB flash chip. Maple uses a diffrent library which from what I can tell is no longer maintained.
+The Mini E3 V2.0 uses a [STM32F103RCT6](//https://www.digikey.com/en/products/detail/stmicroelectronics/STM32F103RCT6/2035353), this is a 256KB flash chip. Maple uses a different library which from what I can tell is no longer maintained.
 
 I used [Visual Studio Code](//code.visualstudio.com/download) using the [Auto Build Marlin](//marlinfw.org/docs/basics/auto_build_marlin.html) extension. There are other ways to build the firmware documented on [Marlin's Website](//https://marlinfw.org/docs/basics/install.html)
 
